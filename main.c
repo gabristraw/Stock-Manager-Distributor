@@ -75,13 +75,13 @@ int main () {
 
     char cadena[MAX_CADENA];
 
-    char menu[10];              //Varieables amb finalitat del menu
+    char menu[10];        
     char add[5] = "add"; char removed[10] = "remove"; char show[5]= "show"; char exitt[10]= "exit"; char dni_remove_char[100];
 
-    int i= 0, j= 0, l= 1, b = 0; //Contadores 
-    int errorMenu= 0,error_dni = 0, error_dni_valid = 0,digitos_dni = 0, error_edat = 0, dni_repetit= 0,  dni_remove_int;//variables indicadores de error
+    int i= 0, j= 0, l= 1, b = 0;
+    int errorMenu= 0,error_dni = 0, error_dni_valid = 0,digitos_dni = 0, error_edat = 0, dni_repetit= 0,  dni_remove_int;
 
-    char opcio_show[10];    //valor de la opcio show
+    char opcio_show[10]; 
     int opcio_show_int = 0;
 
     reserva[l].dni[0] = '\0';
