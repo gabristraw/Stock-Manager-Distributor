@@ -12,10 +12,10 @@
 
 typedef struct {
 
-    char dni[40];
-    int dni_int;
-    char edat[100];
-    int edat_int;
+    char id[40];
+    int id_int;
+    char caducado[100];
+    int caducado_int;
     char nombre[70];
     
 } Reserva;
